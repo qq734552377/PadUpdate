@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<config>
+
+<apk>
+    <service>ucast.com.padupdate.UpdateService</service>
+    <activity> </activity>
+    <package>ucast.com.padupdate</package>
+    <type>1</type>
+</apk>
+
+<apk>
+<service>com.ucast.applock_service.AppService</service>
+<activity> </activity>
+<package>com.ucast.applock_service</package>
+<type>1</type>
+</apk>
+
+<apk>
+<service>com.project.services.ui.MyService</service>
+<activity> </activity>
+<package>com.project.services</package>
+<type>1</type>
+</apk>
+
+<apk>
+<service>com.example.zxc.blue.MainService</service>
+<activity> </activity>
+<package>com.example.zxc.blue</package>
+<type>1</type>
+</apk>
+</config>

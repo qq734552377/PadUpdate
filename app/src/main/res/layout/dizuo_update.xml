@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:text="底座更新地址:"
+                android:textSize="20sp"
+                android:gravity="bottom"
+                />
+            <EditText
+                android:id="@+id/dizuo_update_url"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                style="@style/PasswdEditTextStyle"
+                />
+
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:text="日志上传地址:"
+                android:textSize="20sp"
+                android:gravity="bottom"
+                />
+            <EditText
+                android:id="@+id/log_upload_url"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                style="@style/PasswdEditTextStyle"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:text="时间同步地址:"
+                android:textSize="20sp"
+                android:gravity="bottom"
+                />
+            <EditText
+                android:id="@+id/timesync_url"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                style="@style/PasswdEditTextStyle"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/dizuo_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="获取底座Mac"
+            android:gravity="center"
+            android:background="@drawable/round"
+            android:textColor="@drawable/bt_textcolor"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <Button
+            android:id="@+id/dizuoupdate_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="升级底座程序"
+            android:gravity="center"
+            android:background="@drawable/round"
+            android:textColor="@drawable/bt_textcolor"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <Button
+            android:id="@+id/timesync_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="立即同步时间"
+            android:gravity="center"
+            android:background="@drawable/round"
+            android:textColor="@drawable/bt_textcolor"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
